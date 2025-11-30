@@ -12,18 +12,18 @@
   - npx react-native init MyKakeiboApp
 
 ## ステップ 3：依存関係のインストール
-- 新しい MyKakeiboApp フォルダに入り、必要なライブラリを一度にインストールします。
+- 新しい MyKakeiboApp フォルダに入り、必要なライブラリを一度にインストール
 - プロジェクトフォルダに移動
--- cd MyKakeiboApp
---- 必要なすべてのライブラリをインストール このコマンドには、ナビゲーション、UI、アイコン、カレンダー、永続化に必要なものがすべて含まれています。
--- npm install @react-navigation/native @react-navigation/bottom-tabs react-native-paper react-native-vector-icons @react-native-community/datetimepicker @react-native-async-storage/async-storage react-native-gesture-handler
---- TypeScriptの型定義ファイルをインストール
--- npm install --save-dev @types/react-native-vector-icons
+  - cd MyKakeiboApp
+- 必要なすべてのライブラリをインストール このコマンドには、ナビゲーション、UI、アイコン、カレンダー、永続化に必要なものがすべて含まれています。
+  - npm install @react-navigation/native @react-navigation/bottom-tabs react-native-paper react-native-vector-icons @react-native-community/datetimepicker @react-native-async-storage/async-storage react-native-gesture-handler
+- TypeScriptの型定義ファイルをインストール
+  - npm install --save-dev @types/react-native-vector-icons
 
 ## ステップ 4：アプリの再実行
 - Androidのビルドクリーンアップ
--- cd android
--- ./gradlew clean
--- cd ..
--アプリの実行
--- npx react-native run-android
+  - cd android
+  - ./gradlew clean
+  - cd ..
+- アプリの実行
+  - npx react-native run-android
