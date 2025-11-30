@@ -9,7 +9,7 @@
 - プロジェクトをクリーンな状態から再生成します。
 - 削除したフォルダが存在していた親ディレクトリに移動します。
 - ターミナルを開き、以下のコマンドを実行して、新しいプロジェクトを作成します。
-- npx react-native init MyKakeiboApp
+  - npx react-native init MyKakeiboApp
 
 ## ステップ 3：依存関係のインストール
 - 新しい MyKakeiboApp フォルダに入り、必要なライブラリを一度にインストールします。
